@@ -13,6 +13,7 @@
 		27B4DBC019F78315005EC468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B4DBBF19F78315005EC468 /* Images.xcassets */; };
 		27B4DBC319F78315005EC468 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B4DBC119F78315005EC468 /* LaunchScreen.xib */; };
 		27B4DBCF19F78315005EC468 /* SwiftPullRefreshDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4DBCE19F78315005EC468 /* SwiftPullRefreshDemoTests.swift */; };
+		27B4DBDB19F7869F005EC468 /* UIScrollView+DHPull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4DBDA19F7869F005EC468 /* UIScrollView+DHPull.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		27B4DBC819F78315005EC468 /* SwiftPullRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPullRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B4DBCD19F78315005EC468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B4DBCE19F78315005EC468 /* SwiftPullRefreshDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPullRefreshDemoTests.swift; sourceTree = "<group>"; };
+		27B4DBDA19F7869F005EC468 /* UIScrollView+DHPull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+DHPull.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				27B4DBB819F78315005EC468 /* AppDelegate.swift */,
 				27B4DBBA19F78315005EC468 /* ViewController.swift */,
+				27B4DBDA19F7869F005EC468 /* UIScrollView+DHPull.swift */,
 				27B4DBBC19F78315005EC468 /* Main.storyboard */,
 				27B4DBBF19F78315005EC468 /* Images.xcassets */,
 				27B4DBC119F78315005EC468 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B4DBDB19F7869F005EC468 /* UIScrollView+DHPull.swift in Sources */,
 				27B4DBBB19F78315005EC468 /* ViewController.swift in Sources */,
 				27B4DBB919F78315005EC468 /* AppDelegate.swift in Sources */,
 			);

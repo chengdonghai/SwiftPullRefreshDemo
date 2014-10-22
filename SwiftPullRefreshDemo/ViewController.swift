@@ -10,16 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var tableView:UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*tableView.addPullDownRefreshView {
+            () -> Void in
+            println("start loading")
+            
+        }*/
+        tableView.addPullDownRefreshView({ () -> Void in
+            println("start loading")
+        }, baseContentOffset: 0.0)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    //stop loading
+    func stopLoading() {
+        self.tableView.stopAnimation()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    deinit {
+        //must remove observer
+        self.tableView.removePullObserver()
+    }
 }
 
