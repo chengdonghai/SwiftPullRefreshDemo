@@ -3,6 +3,10 @@ SwiftPullRefreshDemo
 
 Pull Refresh with swift
 
+Drag this file to your project.
+UIScrollView+DHPull.swift
+
+How to use?
 
 Add a pull refresh for a scrollView like this.
 
